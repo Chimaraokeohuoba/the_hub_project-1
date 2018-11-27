@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="css/pingle_css.css">
+    <link rel="stylesheet" href="pingle_css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -10,24 +10,27 @@
     <title></title>
   </head>
   <body style="background-color:white !important;">
-    <nav class="navbar navbar-default navbar-fixed-top full_opacity" id="big_nav">
+    <nav class="navbar navbar-default navbar-fixed-top full_opacity">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <a class="navbar-brand head" id = "brand" href="home.html">CommeHub</a>
+          <a class="navbar-brand head" id = "brand" href="landing_page.html">CommeHub</a>
         </div>
-        <ul class="nav navbar-nav">
-          <li><div class="input-group" style="width:60vw;margin-top:10px;">
-            <input type="text" class="form-control" placeholder="Search for anything...">
-            <span class="input-group-btn">
-              <button class="btn btn-success" type="button" style="padding:8px;"><img src=" project_images\search-magnifier-interface-symbol (1).png" alt=""></button>
-            </span>
-          </div>
-        </li>
-        </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" id="notif_no_border_bottom"><img src="project_images/close-envelope.png" alt=""></a></li>
+          <ul class="nav navbar-nav navbar-right" id="search">
+            <li><div id="big_search "class="input-group" style="width:40vw;margin-top:10px;">
+              <input type="text" class="form-control" placeholder="Search for anything...">
+              <span class="input-group-btn">
+                <button class="btn btn-success" type="button" style="padding:8px;"><img src=" project_images\search-magnifier-interface-symbol (1).png" alt=""></button>
+              </span>
+            </div>
+
+            <!-- <div id="small_search" style="border-bottom:none;">
+              <img role="button" src=" project_images\search-magnifier-interface-symbol.png" alt="">
+            </div> -->
+          </li>
+            <li><a href="flash_deals.html">Flash Deals</a></li>
+            <li><a href="Active_votes.html">Active Votes</a></li>
             <li><a href="#" id="notif_no_border_bottom"><img src="project_images\notifications-button (1).png" alt=""></a></li>
             <li class="dropdown">
               <a href="#" id="no_border_bottom" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="project_images\1021873-dark-angel-wallpapers-1920x1080-ios.jpg" alt="avatar" class="avatar"></a>
@@ -40,47 +43,12 @@
                 <li><a id="profile" href="help_center.html">Help Center</a></li>
                 <li><a id="profile" href="#">Careers</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a id="profile" href="landing_page.html">Logout</a></li>
+                <li><a id="profile" href="#">Logout</a></li>
               </ul>
             </li>
           </ul>
       </div>
     </nav>
-
-    <nav class="navbar navbar-default navbar-fixed-top full_opacity" id="small_nav">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <div class="navbar-header">
-              <a class="navbar-brand head" id = "brand" href="home.html">CommeHub</a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a href="#"><img style="margin-top:15px;" role="button" src=" project_images\search-magnifier-interface-symbol.png" alt=""></a>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a href="#"><img style="margin-top:15px;" role="button "src="project_images\notifications-button (1).png" alt=""></a>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="project_images\1021873-dark-angel-wallpapers-1920x1080-ios.jpg" alt="avatar" class="avatar"></a>
-            <ul class="dropdown-menu">
-              <li><a id="profile" href="profile.html">Profile</a></li>
-              <li><a id="profile" href="#">Saved</a></li>
-              <li><a id="profile" href="#">Transactions</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a id="profile" href="#">Settings</a></li>
-              <li><a id="profile" href="help_center.html">Help Center</a></li>
-              <li><a id="profile" href="#">Careers</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a id="profile" href="landing_page.html">Logout</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-
 
 
     <br>
@@ -97,10 +65,9 @@
           <div class="profile__header container-fluid" style="margin-bottom:20px;">
           <div class="text-muted" style="text-align: right; margin: 0px auto; width: 100%; max-width: 1300px;">
             <span class="profile__banner_edit">
-              <a href="#" class="no_underline" role="button"><span class="profile__banner_text">+ Upload Cover Photo</span>
+              <span class="profile__banner_text">+ Upload Cover Photo</span>
               <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </span></a>
-
+            </span>
           </div>
           <div class="text-center">
             <button type="button" class="btn btn-default" style="color:black;">
@@ -108,14 +75,13 @@
               <span class="profile__photo_upload_text">Edit</span>
             </button>
             <div class="profile__image profile__image_own_profile" style="margin:10px;">
-              <img src="project_images\1021873-dark-angel-wallpapers-1920x1080-ios.jpg" alt="avatar" class="avatar_1">
-              <!-- <picture>
+              <picture>
                 <source srcset="https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=1 1x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=2 2x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=3 3x" media="(min-width: 1025px)">
                   <source srcset="https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=1 1x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=2 2x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=3 3x" media="(min-width: 801px)">
                     <source srcset="https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=1 1x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=2 2x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=3 3x" media="(min-width: 501px)">
                       <source srcset="https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=1 1x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=2 2x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=64&amp;h=64&amp;dpr=3 3x" media="(min-width: 0px)">
                         <img src="https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=1" srcset="https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=1 1x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=2 2x, https://massdrop-s3.imgix.net/img_profile/anon/T13.png?auto=format&amp;fm=jpg&amp;fit=crop&amp;w=96&amp;h=96&amp;dpr=3 3x" class="responsive avatar user__avatar " alt="">
-                      </picture> -->
+                      </picture>
                       <div>
                         <div class="profile__user_name"><h2>tatooingghost</h2></div>
                         <div class="profile__header_tag_line_container">
@@ -173,30 +139,30 @@
               <nav class="navbar navbar-default" style="background-color:white;">
                 <ul class="nav navbar-nav" id="profile_nav">
                   <li class="tabs__tab">
-                    <a id="home" href="#" class="current">
+                    <a id="about" href="#" class="current">
                       <span class="links__text">About</span>
                     </a>
                   </li>
                   <li class="tabs__tab">
-                    <a id="deal_hub" href="#" class="links links--normal links--with_text links--text_only tabs__link link_button--primary">
-                      <span class="links__text">My deals</span>
+                    <a id="deals" href="#" class="links links--normal links--with_text links--text_only tabs__link link_button--primary">
+                      <span class="links__text">Flash Deals</span>
                     </a>
                   </li>
                   <li class="tabs__tab">
-                    <a id="talks" name="Talk" href="#" class="links links--normal links--with_text links--text_only tabs__link link_button--primary">
-                      <span class="links__text">My talks</span>
+                    <a id="talk" name="Talk" href="#" class="links links--normal links--with_text links--text_only tabs__link link_button--primary">
+                      <span class="links__text">Talk</span>
                     </a>
                   </li>
                   <li class="tabs__tab">
-                    <a id="nominations" name="Polls" href="#" class="links links--normal links--with_text links--text_only tabs__link link_button--primary">
-                      <span class="links__text">My nominations</span>
+                    <a id="votes" name="Polls" href="#" class="links links--normal links--with_text links--text_only tabs__link link_button--primary">
+                      <span class="links__text">Votes</span>
                     </a>
                   </li>
                 </ul>
               </nav>
 
 
-              <div class="home">
+              <div class="profile_about">
 
                 <div class="container-fluid">
                   <div>
@@ -312,7 +278,7 @@
 
 
 
-              <div class="deal_hub">
+              <div class="profile_deals">
                 <div class="contentDiv">
                   <div style="text-align:center;display:flex;align-items:center;">
                     <div class="container">
@@ -332,13 +298,13 @@
 
               </div>
 
-              <div class="talks">
+              <div class="profile_talk">
                 <div class="jumbotron text-center">
                   <h1>Talk</h1>
                 </div>
               </div>
 
-              <div class="nominations">
+              <div class="profile_votes">
                 <div class="jumbotron text-center">
                   <h2>You haven't voted on any item before.</h2>
                   <br>
@@ -360,31 +326,15 @@
           <footer>
             <div class="container">
               <div class="row" style="text-align:center;font-weight:bolder;color:white;padding:auto;">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                   <br>
                   <a href="about.html" style="color:white;text-decoration:none;"><h4 >Meet the team!</h4></a>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <div>
-                    <ul style="list-style-type:none;">
-                      <li class="dropdown" style="padding-top:20px;">
-                        <a href="#" style="color:white;text-decoration:none;text-align:center;font-weight:bolder;"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h4>Contact <span class="caret"></span></h4></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                   <br>
                   <a href="help_center.html" style="color:white;text-decoration:none;"><h4>Help center</h4></a>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                   <br>
                   <h4>we are hiring!</h4>
                 </div>
@@ -394,16 +344,16 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                  <a href="https://facebook.com/commehub"><img src="project_images/facebook-logo-in-circular-button-outlined-social-symbol.png" alt=""></a>
+                  <img src="project_images/facebook-logo-in-circular-button-outlined-social-symbol.png" alt="">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                  <a href="https://twitter.com/commehub"><img src="project_images/twitter-circular-button.png" alt=""></a>
+                  <img src="project_images/twitter-circular-button.png" alt="">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                  <a href="https://instagram.com/commehub"><img src="project_images/instagram.png" alt=""></a>
+                  <img src="project_images/instagram.png" alt="">
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                  <a href="#"><img src="project_images/social-linkedin-circular-button.png" alt=""></a>
+                  <img src="project_images/social-linkedin-circular-button.png" alt="">
                 </div>
 
               </div>
@@ -414,12 +364,13 @@
           <footer
           id="all_rights_reserved"><h5>© 2018 CommeHub All rights reserved.</h5>
           </footer>
+
     <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="js/transparent_to_solid_navbar.js"></script>
-    <script src="js/animated_arrow.js"></script>
-    <script src="js/back_to_top.js"></script>
+    <script src="transparent_to_solid_navbar.js"></script>
+    <script src="animated_arrow.js"></script>
+    <script src="back_to_top.js"></script>
 
 
 

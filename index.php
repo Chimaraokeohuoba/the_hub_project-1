@@ -20,12 +20,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" href="pingle_css.css">
+      <link rel="stylesheet" href="./pingle/pingle_css.css">
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
 
 
-    <title></title>
+    <title>CommeHub - Home</title>
   </head>
   <!-- <style>
     .head{
@@ -106,7 +106,7 @@
           <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
           <button class="btn btn-outline-danger">This is a Button</button>
         </div>
-          <a href="#first_vote"><img class="arrow" src="angle-arrow-down(4).png" /></a>
+          <a href="#first_vote"><img class="arrow" src="./pingle/images/angle-arrow-down(4).png" /></a>
 
       </div>
     </div>
@@ -390,7 +390,7 @@
               <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="">
-                    <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                    <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
                   </div>
                   <hr id="testimonial_divider">
                   <div class="" style = "text-align:center;">
@@ -409,7 +409,7 @@
           <div>
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="">
-                  <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                  <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
                 </div>
                 <hr id="testimonial_divider">
                 <div class="" style = "text-align:center;">
@@ -428,7 +428,7 @@
           <div>
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="">
-                  <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                  <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
                 </div>
                 <hr id="testimonial_divider">
                 <div class=""  style = "text-align:center;">
@@ -453,7 +453,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="">
-                  <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                  <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
                 </div>
                 <hr id="testimonial_divider">
                 <div class="" style = "text-align:center;">
@@ -472,7 +472,7 @@
         <div>
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="">
-                <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
               </div>
               <hr id="testimonial_divider">
               <div class="" style = "text-align:center;">
@@ -491,7 +491,7 @@
         <div>
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="">
-                <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
               </div>
               <hr id="testimonial_divider">
               <div class=""  style = "text-align:center;">
@@ -518,7 +518,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="">
-                <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+                <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
               </div>
               <hr id="testimonial_divider">
               <div class="" style = "text-align:center;">
@@ -537,7 +537,7 @@
       <div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="">
-              <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+              <img src="pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
             </div>
             <hr id="testimonial_divider">
             <div class="" style = "text-align:center;">
@@ -556,7 +556,7 @@
       <div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="">
-              <img src="wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
+              <img src="./pingle/images/wJmAVDG-dark-wolf-wallpaper.jpg" id = "testimonial_image" class="img-responsive img-default" alt="Responsive image">
             </div>
             <hr id="testimonial_divider">
             <div class=""  style = "text-align:center;">
@@ -634,9 +634,9 @@
     <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="transparent_to_solid_navbar.js"></script>
-    <script src="animated_arrow.js"></script>
-    <script src="back_to_top.js"></script>
+    <script src="./pingle/js/transparent_to_solid_navbar.js"></script>
+    <script src="./pingle/js/animated_arrow.js"></script>
+    <script src="./pingle/js/back_to_top.js"></script>
 
   </body>
 </html>

@@ -8,6 +8,16 @@
 of data to the database */
 
 
+define('USERS', 'users');
+define('USERNAME', 'username');
+define('FIRSTNAME', 'firstname');
+define('LASTNAME', 'lasttname');
+define('EMAIL', 'email');
+define('PASSWORD', 'password');
+define('PHOTO', 'photo_url');
+define('br','<br>');
+
+
 
 class database{
     /*
@@ -19,6 +29,7 @@ class database{
     protected $dbName;
     protected $conn;
     protected $connectionStatus;
+
 
 
 
@@ -177,13 +188,13 @@ class database{
         }
     }
 
-
     function parseInput($data){
         $data = trim($data);
         $data = stripslashes($data);
         $data = htmlspecialchars($data);
         return $data;
     }
+
 
 
 
